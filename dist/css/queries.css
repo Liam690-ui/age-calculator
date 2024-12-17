@@ -1,0 +1,11 @@
+@media screen and (max-width: 42.5em) {
+  html {
+    font-size: 50%;
+  }
+  .imageContainer {
+    right: 50%;
+  }
+  .button {
+    right: 26.8rem;
+  }
+}

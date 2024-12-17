@@ -1,0 +1,90 @@
+body {
+  background-color: var(--off-white);
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 58rem;
+  background-color: var(--white);
+  border-radius: 5% 5% 25% 5%;
+  padding: 4.8rem;
+  position: relative;
+}
+
+/* INPUTS SECTION */
+#inputs {
+  display: flex;
+  gap: 2.4rem;
+  padding-bottom: 4.8rem;
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.inputWrapper label {
+  color: var(--smokey-grey);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.input {
+  width: 14rem;
+  border: 2px solid var(--smokey-grey);
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 1.4rem 0;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.error {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--light-red);
+  text-transform: none;
+  margin-top: 0;
+}
+
+/* HORIZONTAL RULE */
+.button {
+  cursor: pointer;
+  height: 5.2rem;
+  width: 5.2rem;
+  background-color: var(--purple);
+  border: none;
+  border-radius: 50%;
+  padding: 3.6rem;
+  position: absolute;
+  right: 4.8rem;
+  top: 16rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer image {
+  width: 100%;
+}
+
+/* DATE DISPLAY SECTION */
+.display {
+  font-size: 7.2rem;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
+
+.timer {
+  color: var(--purple);
+}
+
+.footer {
+  font-size: 2rem;
+  text-align: center;
+}
